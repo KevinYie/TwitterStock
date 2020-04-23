@@ -18,10 +18,10 @@ def gather(search_keyword):
 
 
 # initialize api instance and set search term
-twitter_api = twitter.Api(consumer_key='0CclE9gqNjQ0q33243DLwBrvs',
-                          consumer_secret='WILMfZp0Udp4FBw0lOUrukzzHkQzIIDXXFdB1acdvtQyak6rxS',
-                          access_token_key='1247729640363433984-W0srSXnxhXw3aDqJxs3z7PWJrNyNxu',
-                          access_token_secret='zOXfkmFc3eIoTdwQ0rteswrwFnMdODZdqHQBoY6LtLSew',
+twitter_api = twitter.Api(consumer_key='',
+                          consumer_secret='',
+                          access_token_key='',
+                          access_token_secret='',
                           tweet_mode = "extended")
 
 searchterm = "bitcoin"
