@@ -13,18 +13,18 @@ def gather(search_keyword):
              "favs": status.favorite_count,
              "retweet": status.retweet_count}
             final = final.append(tweet_info, ignore_index = True)
-        final.drop(0).to_csv("full {} 3.csv".format(str(searchterm)), index=False)
+        final.drop(0).to_csv("corrected_bitcoin.csv".format(str(searchterm)), index=False)
         time.sleep(960)
 
 
 # initialize api instance and set search term
-twitter_api = twitter.Api(consumer_key='',
-                          consumer_secret='',
-                          access_token_key='',
-                          access_token_secret='',
+twitter_api = twitter.Api(consumer_key='0CclE9gqNjQ0q33243DLwBrvs',
+                          consumer_secret='WILMfZp0Udp4FBw0lOUrukzzHkQzIIDXXFdB1acdvtQyak6rxS',
+                          access_token_key='1247729640363433984-ssbIWHD65mw0EhXZXXfGEYbbI93Wot',
+                          access_token_secret='AHctxkq48UcNrj5vP5MBBGHvcEmjHeHaTPflfFPURbal3',
                           tweet_mode = "extended")
 
-searchterm = "bitcoin"
+searchterm = "samsung"
 
 # main
 time.sleep(960)
